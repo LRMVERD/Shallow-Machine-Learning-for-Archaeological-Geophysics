@@ -5,7 +5,7 @@ To run the code on your own computer, download a package manager such as Conda o
 
 **Windows**
 1. Download this Github repository as a zip file using the ‘Code’ button at the top of this page and then ‘Download ZIP’. Save the file on your computer and extract it.
-2. Install Mamba using the Miniforge distribution. From [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install) (‘Install’), download the Windows installer and follow the instructions.
+2. Install Mamba using the Miniforge distribution. From [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install), download the Windows installer and follow the instructions.
 3. Open the Miniforge Prompt installed in the Windows Start menu.
 4. In the Miniforge Prompt, change to the directory where you extracted the zip file (this directory includes the `environment.yml` file). Type the following and press Enter:
 
@@ -25,7 +25,7 @@ To run the code on your own computer, download a package manager such as Conda o
 
 **Ubuntu**   
 1. Download this Github repository as a zip file using the ‘Code’ button at the top of this page and then ‘Download ZIP’. Save the file on your computer and extract it.
-2. Go to https://github.com/conda-forge/miniforge. Under ‘Install – Unix-like platforms (macOS, Linux, & WSL)’, the commands are given to install Mamba. In a regular Ubuntu terminal, type:
+2. Go to [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-macos-linux--wsl). Under ‘Install – Unix-like platforms (macOS, Linux, & WSL)’, the commands are given to install Mamba. In a regular Ubuntu terminal, type:
     ```
     wget -O Miniforge3.sh "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
     bash Miniforge3.sh -b -p "${HOME}/conda"
