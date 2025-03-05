@@ -1,4 +1,4 @@
-name: envTEST
+name: my_environment
 channels:
   - conda-forge
 dependencies:
