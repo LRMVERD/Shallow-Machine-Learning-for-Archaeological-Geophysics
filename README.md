@@ -20,7 +20,7 @@ To run the code on your computer, download a package manager such as Conda or Ma
    ```
    jupyter notebook
    ```   
-   An internet browser will open, from which you can select the Jupyter notebook `Notebook_v17_3-D.ipynb`. 
+   An internet browser will open, from which you can select the Jupyter notebook `ML_for_Arch_Geofys.ipynb`. 
 5. Follow the instructions in the notebook.
 
 **Ubuntu**   
@@ -48,7 +48,7 @@ To run the code on your computer, download a package manager such as Conda or Ma
    ```
    jupyter notebook
    ```
-   An internet browser will open, from which you can select the Jupyter notebook `Notebook_v17_3-D.ipynb`. 
+   An internet browser will open, from which you can select the Jupyter notebook `ML_for_Arch_Geophys.ipynb`. 
 4. Follow the instructions in the notebook.
    
     
