@@ -1,7 +1,7 @@
 # Shallow Machine Learning for Archaeological Geophysics
 Code for the shallow machine learning based semantic segmentation of geophysical data from archaeological contexts, implemented as a Jupyter Notebook. The installation and use have been tested on Windows 10 and Linux (Ubuntu 18.04) operating systems.
 ## Installation
-To run the code on your own computer, download a package manager such as Conda or Mamba. Whereas installing packages using Conda can be slow or fail because it is unable to resolve dependencies, Mamba is often faster and better at resolving dependencies. The instructions below are based on the use of Mamba, but you can replace ‘mamba’ with ‘conda’ if you are using Conda on your computer.  
+To run the code on your computer, download a package manager such as Conda or Mamba. Whereas installing packages using Conda can be slow or fail because it is unable to resolve dependencies, Mamba is often faster and better at resolving dependencies. The instructions below are based on the use of Mamba, but you can replace ‘mamba’ with ‘conda’ if you are using Conda on your computer.  
 
 **Windows**
 1. Download this Github repository as a zip file using the ‘Code’ button at the top of this page and then ‘Download ZIP’. Save the file on your computer and extract it.
@@ -12,7 +12,7 @@ To run the code on your own computer, download a package manager such as Conda o
    ```
    mamba env create -f environment.yml
    ```
-   An environment is created, in which Python, napari and all other packages necessary to run the Jupyter notebook are installed. This environment is called ‘my_environment’. If you want another name for the environment, first change the name in the first line of the `environment.yml` file. To activate the environment, type:
+   An environment is created, in which Python, napari and all other packages necessary to run the Jupyter notebook are installed. This environment is called ‘my_environment’. If you would like another name for the environment, first change the name in the first line of the `environment.yml` file. To activate the environment, type:
    ```
    mamba activate my_environment
    ```
@@ -36,7 +36,7 @@ To run the code on your own computer, download a package manager such as Conda o
    ```
    mamba env create -f environment.yml
    ```
-   An environment is created, in which Python, napari and all other packages necessary to run the Jupyter notebook are installed. This environment is called ‘my_environment’. If you want another name for the environment, first change the name in the first line of the `environment.yml` file. In order to be able to activate the environment, you may be asked to run the following, then close and re-open the terminal:
+   An environment is created, in which Python, napari and all other packages necessary to run the Jupyter notebook are installed. This environment is called ‘my_environment’. If you would like another name for the environment, first change the name in the first line of the `environment.yml` file. In order to be able to activate the environment, you may be asked to run the following, then close and re-open the terminal:
    ```
    mamba init
    ```
